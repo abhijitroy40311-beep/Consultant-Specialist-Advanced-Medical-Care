@@ -64,15 +64,9 @@ export default function Hero() {
             className="relative lg:h-[700px]"
           >
             <div className="absolute inset-0 bg-brand-gold/10 -translate-x-4 translate-y-4 rounded-sm"></div>
-            <img 
-              src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&q=80&w=1200" 
-              alt={`${brandConfig.doctorName} in consultation`}
-              className="relative w-full h-full object-cover rounded-sm shadow-xl z-10"
-              loading="eager"
-              fetchPriority="high"
-              width="1200"
-              height="800"
-            />
+            <div className="relative w-full h-full min-h-[500px] flex items-center justify-center bg-[#ebeae5] text-[#525a62] rounded-sm shadow-xl z-10 border-2 border-dashed border-[#525a62]/30">
+              <span className="font-serif text-2xl font-medium">Your Image</span>
+            </div>
             
             {/* Floating Badge */}
             <div className="absolute -bottom-6 -left-6 z-20 bg-white p-5 shadow-xl rounded-sm border border-brand-gray-light">
