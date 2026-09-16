@@ -1,0 +1,6 @@
+{
+  "name": "Dr. Your Name - Premium Medical Portfolio",
+  "description": "High-end medical practice portfolio demonstrating trust, medical authority, and premium patient conversion.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

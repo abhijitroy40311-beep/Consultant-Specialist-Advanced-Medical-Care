@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# Prevent indexing of query strings and temporary states
+Disallow: /*?*
+
+Sitemap: https://your-domain.com/sitemap.xml
