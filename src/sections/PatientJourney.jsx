@@ -29,7 +29,6 @@ export default function PatientJourney() {
     <section className="py-24 bg-brand-navy text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-12 gap-16 lg:gap-8">
-          
           <div className="lg:col-span-4">
             <div className="sticky top-32">
               <span className="inline-block mb-4 text-xs font-bold uppercase tracking-widest text-brand-gold">
@@ -63,7 +62,6 @@ export default function PatientJourney() {
               ))}
             </div>
           </div>
-
         </div>
       </div>
     </section>
